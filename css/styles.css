@@ -3,6 +3,15 @@ body {
   background-color: #fff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+}
+
 .list {
   list-style: none;
 }
@@ -45,4 +54,23 @@ body {
 
 .section-title {
   color: #000000;
+}
+
+.hero-title {
+  color: #000000;
+}
+
+/* Section  */
+.section-title {
+  color: teal;
+}
+
+/* Features */
+
+.featur-list .title {
+  color: #000000;
+}
+
+.feature-list .link {
+  color: var(--actionable-item);
 }
