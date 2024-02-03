@@ -1,3 +1,48 @@
 body {
-  background-color: tomato;
+  color: rgba(0, 0, 0, 0.8);
+  background-color: #fff;
+}
+
+.list {
+  list-style: none;
+}
+
+:root {
+  --font-family: 'Montserrat', sans-serif;
+  --second-family: 'Comfortaa', sans-serif;
+  --third-family: 'Inter', sans-serif;
+
+  --actionable-item: #18a0fb;
+}
+/* цвет основного текста #0000*/
+
+/* вторичный цвет текста rgba(0, 0, 0, 0.8)*/
+
+/* белый #ffffff*/
+
+/*  акцент background: var(--actionable-item) */
+
+/*  вторичный цвет фона background: #f5f5f5; */
+
+.logo {
+  color: #000000;
+}
+
+.logo:hover {
+  color: var(--actionable-item);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--actionable-item);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #000000;
+}
+
+.section-title {
+  color: #000000;
 }
