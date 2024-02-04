@@ -3,8 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Photo app</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@400;500;700&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body class="page">
     <!-- Шапка сайта -->
@@ -15,15 +19,15 @@
           photo
         </a>
         <ul class="site-nav list">
-          <li><a href="" class="link">Features</a></li>
+          <li><a href="" class="link current">Features</a></li>
           <li><a href="" class="link">Pricing</a></li>
-          <li><a href="" class="link">Community</a></li>
-          <li><a href="" class="link">Support</a></li>
+          <li><a href="./community.html" class="link">Community</a></li>
+          <li><a href="./support.html" class="link">Support</a></li>
         </ul>
 
         <ul class="auth-nav list">
-          <li><a href="">Log in</a></li>
-          <li><a href="">Register</a></li>
+          <li><a href="" class="button primary">Log in</a></li>
+          <li><a href="" class="button secondary">Register</a></li>
         </ul>
       </nav>
     </header>
@@ -33,7 +37,7 @@
       <div>
         <section class="Hero">
           <h1 class="hero-title">The largest community of photo enthusiasts</h1>
-          <a href="">Join Today</a>
+          <a href="" class="button primary">Join Today</a>
         </section>
       </div>
       <!-- Преимущества -->
@@ -43,7 +47,7 @@
           never before
         </h2>
 
-        <ul class="feature-list">
+        <ul class="feature-list list">
           <li>
             <h3 class="title">Sed ut perspiciatis</h3>
             <p>
@@ -51,7 +55,7 @@
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
               voluptatem sequi nesciunt. Neque porro quisquam est.
             </p>
-            <a href="" class="link">learn more</a>
+            <a href="" class="button secondary">learn more</a>
           </li>
           <li>
             <h3 class="title">Lorem ipsum dolor</h3>
@@ -60,7 +64,7 @@
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim
               veniam, quis nostrud exercitation ullamco laboris nisi.
             </p>
-            <a href="" class="link">learn more</a>
+            <a href="" class="button secondary">learn more</a>
           </li>
           <li>
             <h3 class="title">Nemo enim ipsam</h3>
@@ -69,7 +73,7 @@
               nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
               sit amet, consectetur, adipisci velit, sed quia non numquam.
             </p>
-            <a href="" class="link">learn more</a>
+            <a href="" class="button secondary">learn more</a>
           </li>
           <li>
             <h3 class="title">Tempor incididunt</h3>
@@ -78,22 +82,22 @@
               est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
               velit, sed quia non numquam eius modi tempora.
             </p>
-            <a href="" class="link">learn more</a>
+            <a href="" class="button secondary">learn more</a>
           </li>
         </ul>
       </section>
       <!-- Примеры -->
       <section class="section">
-        <h2 class="section-title">Примеры работ</h2>
-        <ul>
+        <h2 class="section-title">Examples</h2>
+        <ul class="work-list list">
           <li>
             <img
               src="./images/placeholder.png"
               alt="Примеры работы"
               width="750px"
             />
-            <h2>Sed ut perspiciatis unde omnis</h2>
-            <p>
+            <h3 class="title">Sed ut perspiciatis unde omnis</h3>
+            <p class="text">
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
               voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
@@ -105,7 +109,7 @@
               alt="Примеры работы"
               width="750px"
             />
-            <h2>Sed ut perspiciatis unde omnis</h2>
+            <h3 class="title">Sed ut perspiciatis unde omnis</h3>
             <p>
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
@@ -116,13 +120,13 @@
       </section>
 
       <!-- Testimonials -->
-      <section class="section clients">
+      <section class="section">
         <h2 class="section-title">You’re in good company</h2>
-        <p>
+        <p class="section-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore
         </p>
-        <ul>
+        <ul class="list">
           <li>
             <a href="">
               <img src="./images/icon.svg" alt="Логотип" />
@@ -168,13 +172,13 @@
 
       <!-- Sighup -->
       <section>
-        <p>
+        <p class="section-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore
         </p>
         <div>
-          <a href="">Join Today</a>
-          <a href="">Contact us</a>
+          <a href="" class="button primary">Join Today</a>
+          <a href="" class="button secondary">Contact us</a>
         </div>
       </section>
     </main>
@@ -182,24 +186,24 @@
     <!-- Футер -->
     <footer>
       Футер
-      <ul>
+      <ul class="list">
         <li><a href="">Mobile app</a></li>
         <li><a href="">Community</a></li>
         <li><a href="">Company </a></li>
       </ul>
 
-      <a href="/index.html">
+      <a href="/index.html" class="logo">
         <img src="./images/Union.svg" alt="Логотип" />
         photo
       </a>
 
-      <ul>
+      <ul class="list">
         <li><a href="">Help desk</a></li>
         <li><a href="">Blog</a></li>
         <li><a href="">Resources </a></li>
       </ul>
 
-      <ul>
+      <ul class="list">
         <li>
           <a href="" aria-label="Facebook">Facebook</a>
         </li>
