@@ -21,6 +21,8 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  motion: 0;
 }
 
 /* цвет основного текста #0000*/
@@ -100,6 +102,9 @@ body {
 /* Hero */
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  background-color: tomato;
   color: var(--title-text-colr);
   font-family: var(--font-family);
   font-weight: 400;
