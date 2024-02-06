@@ -40,6 +40,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
   outline: 2px solid tomato;
 }
 
@@ -113,6 +115,8 @@ body {
 .section-description {
   font-size: 36px;
   line-height: 1.39;
+  margin-top: 0;
+  margin-bottom: 80px;
 }
 /* Hero */
 
