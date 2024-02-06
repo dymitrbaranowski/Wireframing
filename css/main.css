@@ -22,7 +22,7 @@ body {
 .list {
   list-style: none;
   padding: 0;
-  motion: 0;
+  margin: 0;
 }
 
 /* цвет основного текста #0000*/
@@ -88,11 +88,13 @@ body {
 
 .section-title {
   color: var(--title-text-colr);
-
+  margin-top: 0;
+  margin-bottom: 60px;
   font-weight: 400;
   font-size: 48px;
   line-height: 1.5;
   text-align: center;
+  background-color: tomato;
 }
 
 .section-description {
@@ -108,7 +110,6 @@ body {
 .hero-title {
   margin-top: 0;
   margin-bottom: 40px;
-  background-color: tomato;
   color: var(--title-text-colr);
 
   font-weight: 400;
