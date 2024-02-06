@@ -101,16 +101,19 @@ body {
 }
 /* Hero */
 
+.hero {
+  text-align: center;
+}
+
 .hero-title {
   margin-top: 0;
   margin-bottom: 40px;
   background-color: tomato;
   color: var(--title-text-colr);
-  font-family: var(--font-family);
+
   font-weight: 400;
   font-size: 56px;
   line-height: 1.43;
-  text-align: center;
 }
 /* Features and Examples*/
 
