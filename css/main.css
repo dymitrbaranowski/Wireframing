@@ -66,6 +66,18 @@ body {
 }
 /* Site nav */
 
+.site-nav {
+  display: flex;
+}
+
+.site-nav .link {
+}
+
+.site-nav li {
+  background-color: orange;
+  margin-right: 40px;
+}
+
 .site-nav .link {
   color: var(--actionable-item);
   font-weight: 500;
