@@ -70,13 +70,19 @@ body {
   display: flex;
 }
 
-.site-nav .link {
-}
-
-.site-nav li {
-  background-color: orange;
+.site-nav .item {
+  background-color: tomato;
   margin-right: 40px;
 }
+
+.site-nav .item:last-child {
+  margin-right: 0;
+}
+
+/* .site-nav li {
+  background-color: orange;
+  margin-right: 40px;
+} */
 
 .site-nav .link {
   color: var(--actionable-item);
