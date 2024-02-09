@@ -1,285 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Photo app</title>
+    <title>Фон и декоративные элементмы</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@400;500;700&display=swap');
+      img {
+        outline: 1px solid black;
+      }
+
+      img:nth-of-type(2) {
+        background-color: palevioletred;
+      }
+
+      img:nth-of-type(3) {
+        background-color: teal;
+      }
+      img:nth-of-type(4) {
+        background-color: orange;
+      }
     </style>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <body class="page">
-    <!-- <div class="test-container">
-      <div class="flex-container">
-        <div class="flex-element">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          quam dicta, perspiciatis dolor suscipit alias omnis excepturi dolorem
-          quasi possimus eveniet soluta pariatur, voluptatibus nam. Beatae
-          exercitationem dicta illum corrupti?
-        </div>
-        <div class="flex-element">
-          Aliquid cum ipsam, illum ipsum sequi nisi inventore officiis,
-          reiciendis nobis provident facilis quidem dolorem fugiat sunt laborum
-          blanditiis perspiciatis odit quia. Nihil nobis nulla maxime eum vero
-          ducimus esse?
-        </div>
-        <div class="flex-element">
-          Voluptatum, temporibus sunt! Modi, blanditiis possimus? Illum rerum
-          optio asperiores. Ipsam quis necessitatibus sed, sunt consequuntur
-          officiis rem. Eligendi, veritatis expedita! Mollitia in animi, natus
-          nesciunt cupiditate ipsa quis adipisci!
-        </div>
-        <div class="flex-element">
-          Velit, aspernatur. Ex impedit fuga quidem dolorem, temporibus ipsum
-          hic nam earum possimus cupiditate officiis, distinctio, est amet
-          praesentium minima error aliquid labore? Dignissimos eveniet
-          consectetur ducimus neque, modi sequi.
-        </div>
-        <div class="flex-element">
-          Error veniam voluptatum cum molestias assumenda eius unde accusantium,
-          esse sapiente consequatur veritatis dolore amet repellat sunt impedit,
-          ex sed beatae neque in doloribus corrupti, aliquam ipsa maiores!
-          Placeat, debitis!
-        </div>
-        <div class="flex-element">
-          Ipsa maxime quibusdam incidunt voluptatibus maiores nulla fugiat illo
-          sequi culpa laudantium. Aliquid voluptatem vel velit est esse ex ab
-          laborum aut culpa, minus similique quis nesciunt dolorum obcaecati
-          quas?
-        </div>
-      </div>
-    </div> -->
-    <!-- Шапка сайта -->
+  <body>
+    <ul class="nav">
+      <li><a href="/01-background.html">Фон элемента</a></li>
+      <li><a href="/02-multibg.html">Многослойный фон</a></li>
+      <li><a href="/03-pseudoelements.html">Псевдоэлементы</a></li>
+    </ul>
 
-    <header class="page-header">
-      <nav class="container main-nav">
-        <a href="/index.html" class="logo">
-          <img src="./images/Union.svg" alt="Логотип" />
-          photo
-        </a>
-        <ul class="site-nav list">
-          <li class="item"><a href="" class="link current">Features</a></li>
-          <li class="item"><a href="" class="link">Pricing</a></li>
-          <li class="item">
-            <a href="./community.html" class="link">Community</a>
-          </li>
-          <li class="item">
-            <a href="./support.html" class="link">Support</a>
-          </li>
-        </ul>
+    <img src="/images/red-poppies.jpg" alt="" />
 
-        <ul class="auth-nav list">
-          <li class="item"><a href="" class="button secondary">Log in</a></li>
-          <li class="item"><a href="" class="button primary">Register</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <!-- Hero -->
-
-      <div>
-        <section class="hero">
-          <h1 class="hero-title">The largest community of photo enthusiasts</h1>
-          <a href="" class="button primary">Join Today</a>
-        </section>
-      </div>
-      <!-- Преимущества -->
-      <section class="section">
-        <div class="container">
-          <h2 class="section-title">
-            Snap photos and share like <br />
-            never before
-          </h2>
-
-          <ul class="feature-list list">
-            <li class="item">
-              <h3 class="title">Sed ut perspiciatis</h3>
-              <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                aut fugit, consequuntur magni dolores eos qui ratione voluptatem
-                sequi nesciunt. Neque porro quisquam est.
-              </p>
-              <a href="" class="button secondary">learn more</a>
-            </li>
-            <li class="item">
-              <h3 class="title">Lorem ipsum dolor</h3>
-              <p>
-                Amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco laboris nisi.
-              </p>
-              <a href="" class="button secondary">learn more</a>
-            </li>
-            <li class="item">
-              <h3 class="title">Nemo enim ipsam</h3>
-              <p>
-                Consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-                sit amet, consectetur, adipisci velit, sed quia non numquam.
-              </p>
-              <a href="" class="button secondary">learn more</a>
-            </li>
-            <li class="item">
-              <h3 class="title">Tempor incididunt</h3>
-              <p>
-                Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-                est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                adipisci velit, sed quia non numquam eius modi tempora.
-              </p>
-              <a href="" class="button secondary">learn more</a>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- Примеры -->
-      <section class="section no-pading">
-        <div class="container">
-          <h2 class="section-title">Examples</h2>
-          <ul class="work-list list">
-            <li class="item">
-              <img
-                src="./images/placeholder.png"
-                alt="Примеры работы"
-                width="750px"
-              />
-              <div class="content">
-                <h3 class="title">Sed ut perspiciatis unde omnis</h3>
-                <p class="text">
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                  odit aut fugit, sed quia consequuntur magni dolores eos qui
-                  ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                  qui dolorem.
-                </p>
-              </div>
-            </li>
-            <li class="item">
-              <img
-                src="./images/placeholder.png"
-                alt="Примеры работы"
-                width="750px"
-              />
-              <div class="content">
-                <h3 class="title">Sed ut perspiciatis unde omnis</h3>
-                <p>
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                  odit aut fugit, sed quia consequuntur magni dolores eos qui
-                  ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                  qui dolorem.
-                </p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- Testimonials -->
-      <section class="section">
-        <div class="container">
-          <h2 class="section-title centered">You’re in good company</h2>
-          <p class="section-description centered">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore
-          </p>
-          <ul class="client-list list">
-            <li>
-              <a href="">
-                <img src="./images/icon.svg" alt="Логотип" />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="./images/icon.svg" alt="Логотип" />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="./images/icon.svg" alt="Логотип" />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="./images/icon.svg" alt="Логотип" />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="./images/icon.svg" alt="Логотип" />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="./images/icon.svg" alt="Логотип" />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="./images/icon.svg" alt="Логотип" />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="./images/icon.svg" alt="Логотип" />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- Sighup -->
-      <section class="section">
-        <div class="container">
-          <p class="section-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore
-          </p>
-          <div>
-            <a href="" class="button primary">Join Today</a>
-            <a href="" class="button secondary">Contact us</a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- Футер -->
-    <footer>
-      Футер
-      <ul class="list">
-        <li><a href="">Mobile app</a></li>
-        <li><a href="">Community</a></li>
-        <li><a href="">Company </a></li>
-      </ul>
-
-      <a href="/index.html" class="logo">
-        <img src="./images/Union.svg" alt="Логотип" />
-        photo
-      </a>
-
-      <ul class="list">
-        <li><a href="">Help desk</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Resources </a></li>
-      </ul>
-
-      <ul class="list">
-        <li>
-          <a href="" aria-label="Facebook">Facebook</a>
-        </li>
-        <li>
-          <a href="" aria-label="Rwitter">Twitter</a>
-        </li>
-        <li>
-          <a href="" aria-label="Instagram">Instagram</a>
-        </li>
-        <li>
-          <a href="" aria-label="Linkedin">Linkedin</a>
-        </li>
-      </ul>
-      <p>&copy Photo, Inc. 2019. We love our users!</p>
-    </footer>
+    <img src="./images/transparent-1.png" alt="" height="430" />
+    <img src="./images/transparent-2.png" alt="" height="430" />
+    <img src="./images/transparent-3.png" alt="" height="430" />
   </body>
 </html>
