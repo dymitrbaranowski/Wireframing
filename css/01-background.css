@@ -20,16 +20,16 @@
 /* cat */
 .box:nth-child(1) {
   background-color: #2196f3;
-  background-image: url("../images/cat.png");
+  background-image: url('../images/cat.png');
   background-repeat: no-repeat;
   background-position: center;
-  /* background-size: contain; */
+  /* background-size: cover; */
 }
 
 /* bird */
 .box:nth-child(2) {
   background-color: #9c27b0;
-  background-image: url("../images/bird.png");
+  background-image: url('../images/bird.png');
   background-repeat: repeat-x;
   background-size: 32px;
 }
@@ -37,7 +37,7 @@
 /* dog */
 .box:nth-child(3) {
   background-color: #009688;
-  background-image: url("../images/dog.png");
+  background-image: url('../images/dog.png');
   background-repeat: repeat-y;
   background-position: center;
 }
@@ -45,6 +45,6 @@
 /* turtle */
 .box:nth-child(4) {
   background-color: #3f51b5;
-  background-image: url("../images/turtle.png");
+  background-image: url('../images/turtle.png');
   /* background-repeat: repeat; */
 }
